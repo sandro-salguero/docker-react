@@ -9,12 +9,10 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Hello World!!!
-          This is a React App
         </p>
-        <p>Re-Image or no Re-Image... YES!!! Re-Image to get .env working...</p>
-        <p>.env is working after compose build? Nop, not working... we have to reimage? </p>
-        <p>Here we go again... .env does not work with compose, have tu use env in the compose file...</p>
-        <p>Lets try again... yes, it worked on compose under the machine...</p>
+        <p>
+          This is a React App deployed with Travis CI on Dockers AWS!
+        </p>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
